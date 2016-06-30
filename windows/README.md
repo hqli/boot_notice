@@ -1,11 +1,12 @@
-# ¿ª»úÍ¨ÖªµÄwindows°²×°
-win7ÏÂÃæĞèÒªµÇÂ¼²ÅÄÜÖ´ĞĞ¸Ã½Å±¾¡£
+# å¼€æœºé€šçŸ¥çš„windowså®‰è£…
+win7ä¸‹çš„å¼€æœºé€šçŸ¥ï¼Œå¹¶éåœ¨å¼€æœºæ—¶æ‰§è¡Œï¼Œè€Œæ˜¯åœ¨ç™»å½•ç”¨æˆ·åæ‰§è¡Œã€‚
 
-## °²×°
-- ÏÂÔØ64Î»python2.7£¨https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi£©°²×°µ½C:\Python27,Èç¹û°²×°µ½ÆäËûÂ·¾¶£¬ĞèÒªĞŞ¸Äinstall.batºÍunisntall.bat
-- ±£Ö¤ÁªÍø£¬¹ÜÀíÔ±È¨ÏŞÔËĞĞinstall.bat
-    - ĞèÒªÁªÍø°²×°pythonµÄnumpy¿â£¬¾ßÌå¿ÉÒÔ¿´install.bat
-- Èç¹û°²×°µçÄÔ¹Ü¼Ò£¬ĞèÒª½«C:\Program Files\BootNoticeÎÄ¼ş¼ĞºÍC:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\boot_notice.vbsÎÄ¼şÌí¼Óµ½ĞÅÈÎÇø¡£
-## Ğ¶ÔØ
-- ¹ÜÀíÔ±È¨ÏŞÔËĞĞuninstall.bat
-- ÔÚ¿ªÊ¼²Ëµ¥Ğ¶ÔØpython2.7
+## å®‰è£…
+- ä¸‹è½½64ä½python2.7ï¼ˆhttps://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msiï¼‰å®‰è£…åˆ°C:\Python27,å¦‚æœå®‰è£…åˆ°å…¶ä»–è·¯å¾„ï¼Œéœ€è¦ä¿®æ”¹install.batå’Œunisntall.bat
+- ä¿è¯è”ç½‘ï¼Œç®¡ç†å‘˜æƒé™è¿è¡Œinstall.bat
+    - éœ€è¦è”ç½‘å®‰è£…pythonçš„numpyåº“ï¼Œå…·ä½“å¯ä»¥çœ‹install.bat
+- å¦‚æœå®‰è£…ç”µè„‘ç®¡å®¶ï¼Œéœ€è¦å°†C:\Program Files\BootNoticeæ–‡ä»¶å¤¹å’ŒC:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\boot_notice.vbsæ–‡ä»¶æ·»åŠ åˆ°ä¿¡ä»»åŒºã€‚
+
+## å¸è½½
+- ç®¡ç†å‘˜æƒé™è¿è¡Œuninstall.bat
+- åœ¨å¼€å§‹èœå•å¸è½½python2.7
