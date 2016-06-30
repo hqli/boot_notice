@@ -16,12 +16,14 @@ README和其他文档如果打开乱码。请使用notepad++等支持utf-8格式
 - 申请一个邮箱，在设置里，开通STMP
 - 修改发送邮箱设置
 	- 修改boot_notice.py中send_mail函数里的
-···
-mail_host="smtp.163.com"
-mail_user="bootnotice_test"
-mail_pass="abcde12345"
-mail_postfix="163.com"
-···
+
+	···
+	mail_host="smtp.163.com"
+	mail_user="bootnotice_test"
+	mail_pass="abcde12345"
+	mail_postfix="163.com"
+	···
+	
 - 修改收件箱
 	- 修改boot_notice.py中send_mail函数里的mail_to="bootnotice_test@163.com"
 
