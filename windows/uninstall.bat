@@ -1,14 +1,14 @@
-:: 设置python安装路径 
+:: set python install path
 set python_path=C:\Python27
-:: 设置开机通知脚本的安装路径
+:: set the software install path
 set bootnotice_path="C:\Program Files\BootNotice"
 
-:: 删除开机通知脚本
+:: delete the software install folder
 rd /s /q  %bootnotice_path%
 
-:: 将python27的环境变量清空
+:: clean python27 path
 wmic ENVIRONMENT where "name='BPython27' and username='<system>'" set VariableValue="" 
 
-:: 删除开机启动项
+:: delete the software's boot
 set id=%USERNAME%
 del "C:\Users\%id%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\boot_notice.vbs"

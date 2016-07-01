@@ -1,26 +1,26 @@
-:: 设置python安装路径 
+:: set python install folder
 set python_path=C:\Python27
-:: 设置开机通知脚本的安装路径
+:: set this software install folder
 set bootnotice_path="C:\Program Files\BootNotice"
 
-:: 创建开机通知脚本的安装文件夹
+:: create this software install folder
 mkdir %bootnotice_path%
 
-:: 将python可执行文件添加到Path中
+:: add python script to Path
 wmic ENVIRONMENT create name="BPython27",username="<system>",VariableValue="%python_path%"
 
 wmic ENVIRONMENT where "name='path' and username='<system>'" set VariableValue="%path%;%BPython27%" 
 
-:: 将opencv支持添加到python的库
+:: copy opencv to this software install folder
 copy cv2.pyd %bootnotice_path%
 
-:: 复制开机通知脚本到指定的安装路径
+:: copy boot_notice.py and boot_notice.bat to install folder
 copy boot_notice.py %bootnotice_path%
 
 copy boot_notice.bat %bootnotice_path%
-:: 增加开机启动项
+:: set the software start with boot
 set id=%USERNAME%
 copy boot_notice.vbs "C:\Users\%id%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\"
 
-:: 安装numpy，需要联网
+:: install numpy need Internet
 %python_path%\Scripts\pip.exe install numpy
